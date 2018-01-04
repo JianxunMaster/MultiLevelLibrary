@@ -1,0 +1,1 @@
+include ':app', ':LjxView', ':umeng_social_sdk_res_lib', ':pulltorefresh_lib', ':calendarlib', ':multilevellist_lib', ':TestApp'
