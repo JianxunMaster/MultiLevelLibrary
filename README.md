@@ -10,25 +10,37 @@
 ### 2.在xml中使用ListView 
 v1.0版还没有RecyclerView的适配  			  
 ### 3.数据bean继承MultiLevelModel使得相互嵌套  
-  `public class ClassA extends MultiLevelModel`	  
+  `
+  public class ClassA extends MultiLevelModel
+  `	  
 ### 4.适配器继承MultiLevelAdapter重写onCreateView方法  
-  `public class MultiLevelTestAdapter extends MultiLevelAdapter` 
+  `
+  public class MultiLevelTestAdapter extends MultiLevelAdapter
+  ` 
 ### 5.设置适配器
-  `adapter = new MultiLevelTestAdapter(this, true, false, 1);//构造器  
-	adapter.setOnMultiLevelListener(new MultiLevelAdapter.OnMultiLevelListener() {  
-  @Override  
-  public void onItemClick(AdapterView<?> parent, View view, int position, long id, MultiLevelModel current,  MultiLevelModel max) {  
-      Toast.makeText(MainActivity.this, "position = " + position + "" +  " , current level = " + current.getLevel() + " , outside level = " + max.getLevel(), Toast.LENGTH_SHORT).show();  
-    }  
-	});//设置监听回调   
-	listView.setOnItemClickListener(adapter);//adapter继承了onItemClickListener  
-	listView.setAdapter(adapter);
-  adapter.setList(list);`
+ 	 `
+        adapter = new MultiLevelTestAdapter(this, true, false
+                , 1);
+        adapter.setOnMultiLevelListener(new MultiLevelAdapter.OnMultiLevelListener() {
+            @Override
+            public void onItemClick(AdapterView<?> parent, View view, int position, long id
+                    , MultiLevelModel current, MultiLevelModel max) {
+                Toast.makeText(MainActivity.this, "position = " + position + "" +
+                                " , current level = " + current.getLevel() + " , outside level = "
+                                + max.getLevel()
+                        , Toast.LENGTH_SHORT).show();
+            }
+        });
+        listView.setOnItemClickListener(adapter);
+        listView.setAdapter(adapter);
+        adapter.setList(list);
+  	`
 ### 6.数据结构嵌套  
 #### 建议实用fastjson解 
 析数据格式，生成指定字段children集合，一句代码搞定
 #### 示例数据如下：
-`for (int i = 0; i < 3; i++) {
+	`
+	for (int i = 0; i < 3; i++) {
             ClassA classA = new ClassA(i, " A" + i);
             classA.setChildren(new ArrayList());
             list.add(classA);
@@ -49,6 +61,7 @@ v1.0版还没有RecyclerView的适配
                     }
                 }
             }
-        }`
+        }
+	`
 ## QQ群464635057 欢迎加群讨论  
 
