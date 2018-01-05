@@ -15,7 +15,7 @@ src="https://github.com/JianxunMaster/MultiLevelLibrary/blob/master/image/329A55
 	
 #### 2）快速导入
 
-	[![](https://jitpack.io/v/JianxunMaster/MultiLevelLibrary.svg)](https://jitpack.io/#JianxunMaster/MultiLevelLibrary)
+   [![](https://jitpack.io/v/JianxunMaster/MultiLevelLibrary.svg)](https://jitpack.io/#JianxunMaster/MultiLevelLibrary)
 
 ### 2.在xml中使用ListView 
 
