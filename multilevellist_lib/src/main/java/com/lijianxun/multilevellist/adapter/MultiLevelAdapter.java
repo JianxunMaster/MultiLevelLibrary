@@ -38,6 +38,7 @@ public abstract class MultiLevelAdapter<T extends MultiLevelModel> extends BaseA
     }
 
     public void setList(List<T> list) {
+        if (list == null) return;
         mList = list;
         MultiLevelHelper.setLevel(mList, 0);
         if (!mExpandable || mExpandAll) {//如果不能伸展，展开全部
@@ -50,7 +51,7 @@ public abstract class MultiLevelAdapter<T extends MultiLevelModel> extends BaseA
 
     @Override
     public int getCount() {
-        return MultiLevelHelper.getCount(mList);
+        return mList == null ? 0 : MultiLevelHelper.getCount(mList);
     }
 
 
