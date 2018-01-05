@@ -8,15 +8,15 @@
 #### 2）快速导入
 [![](https://jitpack.io/v/JianxunMaster/MultiLevelLibrary.svg)](https://jitpack.io/#JianxunMaster/MultiLevelLibrary)
 ### 2.在xml中使用ListView 
-v1.0版还没有RecyclerView的适配  			  
+v1.0.0版还没有RecyclerView的适配  			  
 ### 3.数据bean继承MultiLevelModel使得相互嵌套  
-  `
-  public class ClassA extends MultiLevelModel
-  `	  
+	`
+	public class ClassA extends MultiLevelModel
+	`	  
 ### 4.适配器继承MultiLevelAdapter重写onCreateView方法  
-  `
-  public class MultiLevelTestAdapter extends MultiLevelAdapter
-  ` 
+	  `
+	  public class MultiLevelTestAdapter extends MultiLevelAdapter
+	  ` 
 ### 5.设置适配器
  	 `
         adapter = new MultiLevelTestAdapter(this, true, false
