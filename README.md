@@ -1,6 +1,8 @@
 # MultiLevelLibrary  
-多级列表 嵌套层级 使用
- 
+多级列表 嵌套层级 简单  实用 再多级也不怕了
+先上图
+![Image 测试demo截屏1](https://github.com/JianxunMaster/MultiLevelLibrary/blob/master/image/5B1D355AA5E1DAFFC1CDE98A9F9E0E59.jpg)
+![Image 测试demo截屏2](https://github.com/JianxunMaster/MultiLevelLibrary/blob/master/image/329A5551F8D475A0BAF7F2036B85046B.jpg)
 ## 简单使用
 ### 1.引用依赖库
 #### 1）源码下载
@@ -63,5 +65,8 @@ v1.0.0版还没有RecyclerView的适配
             }
         }
 	`
-## QQ群464635057 欢迎加群讨论  
-
+## QQ群464635057 欢迎加群讨论 扫码加群
+ ![Image 群名片](https://github.com/JianxunMaster/MultiLevelLibrary/blob/master/image/MultiLevelLibrary%E8%AE%A8%E8%AE%BA%E7%BE%A4%E7%BE%A4%E4%BA%8C%E7%BB%B4%E7%A0%81.png)
+## 大哥大姐觉得好用的打点赏，一点心意作鼓励
+![Image 支付宝扫码打赏](https://github.com/JianxunMaster/MultiLevelLibrary/blob/master/image/80377AD8D54B09D5574FFF0DA75B61F7.png)
+## 此库持续更新中···加油~~~~(>_<)~~~~
