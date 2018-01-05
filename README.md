@@ -1,8 +1,7 @@
 # MultiLevelLibrary  
-多级列表 嵌套层级 简单  实用 再多级也不怕了  
 先上图  
-<img width="150" height="250" alt="截屏1" src="https://github.com/JianxunMaster/MultiLevelLibrary/blob/master/image/5B1D355AA5E1DAFFC1CDE98A9F9E0E59.jpg"/>
-<img width="150" height="250" alt="截屏2"
+<img width="250" height="400" alt="截屏1" src="https://github.com/JianxunMaster/MultiLevelLibrary/blob/master/image/5B1D355AA5E1DAFFC1CDE98A9F9E0E59.jpg"/>
+<img width="250" height="400" alt="截屏2"
 src="https://github.com/JianxunMaster/MultiLevelLibrary/blob/master/image/329A5551F8D475A0BAF7F2036B85046B.jpg"/>
 ## 简单使用
 ### 1.引用依赖库
@@ -67,7 +66,7 @@ v1.0.0版还没有RecyclerView的适配
         }
 	`
 ## QQ群464635057 欢迎加群讨论 扫码加群
-<div align=center><img width="200" height="150" alt="群二维码" src="https://github.com/JianxunMaster/MultiLevelLibrary/blob/master/image/MultiLevelLibrary%E8%AE%A8%E8%AE%BA%E7%BE%A4%E7%BE%A4%E4%BA%8C%E7%BB%B4%E7%A0%81.png"/></div>
+<div align=center><img width="200" height="300" alt="群二维码" src="https://github.com/JianxunMaster/MultiLevelLibrary/blob/master/image/MultiLevelLibrary%E8%AE%A8%E8%AE%BA%E7%BE%A4%E7%BE%A4%E4%BA%8C%E7%BB%B4%E7%A0%81.png"/></div>
 ## 大哥大姐觉得好用的打点赏，一点心意作鼓励
-<div align=center><img width="150" height="200" alt="支付宝扫码打赏" src="https://github.com/JianxunMaster/MultiLevelLibrary/blob/master/image/80377AD8D54B09D5574FFF0DA75B61F7.png"/></div>
+<div align=center><img width="200" height="300" alt="支付宝扫码打赏" src="https://github.com/JianxunMaster/MultiLevelLibrary/blob/master/image/80377AD8D54B09D5574FFF0DA75B61F7.png"/></div>
 ## 此库持续更新中···加油~~~~(>_<)~~~~
