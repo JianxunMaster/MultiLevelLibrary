@@ -68,5 +68,7 @@ v1.0.0版还没有RecyclerView的适配
 ## QQ群464635057 欢迎加群讨论 扫码加群
 <div align=center><img alt="群二维码" src="https://github.com/JianxunMaster/MultiLevelLibrary/blob/master/image/MultiLevelLibrary%E8%AE%A8%E8%AE%BA%E7%BE%A4%E7%BE%A4%E4%BA%8C%E7%BB%B4%E7%A0%81.png"/></div>
 ## 大哥大姐觉得好用的打点赏，一点心意作鼓励
-<div align=center><img width="200" height="300" alt="支付宝扫码打赏" src="https://github.com/JianxunMaster/MultiLevelLibrary/blob/master/image/80377AD8D54B09D5574FFF0DA75B61F7.png"/></div>
+<div align=center>
+<img width="200" height="300" alt="支付宝扫码打赏" src="https://github.com/JianxunMaster/MultiLevelLibrary/blob/master/image/80377AD8D54B09D5574FFF0DA75B61F7.png"/>
+<img width="200" height="300" alt="支付宝扫码打赏" src="https://github.com/JianxunMaster/MultiLevelLibrary/blob/master/image/C1D99830DC2142387181396BF25B1C59.png"/></div>
 ## 此库持续更新中···加油~~~~(>_<)~~~~
