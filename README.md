@@ -32,7 +32,6 @@ src="https://github.com/JianxunMaster/MultiLevelLibrary/blob/master/image/329A55
 
 ### 5.设置适配器
   
- 	 `
         adapter = new MultiLevelTestAdapter(this, true, false
                 , 1);
         adapter.setOnMultiLevelListener(new MultiLevelAdapter.OnMultiLevelListener() {
@@ -48,7 +47,6 @@ src="https://github.com/JianxunMaster/MultiLevelLibrary/blob/master/image/329A55
         listView.setOnItemClickListener(adapter);
         listView.setAdapter(adapter);
         adapter.setList(list);
-  	`
 	
 ### 6.数据结构嵌套  
 
