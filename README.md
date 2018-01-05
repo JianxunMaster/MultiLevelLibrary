@@ -23,9 +23,7 @@ src="https://github.com/JianxunMaster/MultiLevelLibrary/blob/master/image/329A55
 
 ### 3.数据bean继承MultiLevelModel使得相互嵌套  
   
-	`
-	public class ClassA extends MultiLevelModel
-	`	  
+	public class ClassA extends MultiLevelModel	  
 
 ### 4.适配器继承MultiLevelAdapter重写onCreateView方法  
 	  `
