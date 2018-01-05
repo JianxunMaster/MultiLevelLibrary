@@ -26,9 +26,9 @@ src="https://github.com/JianxunMaster/MultiLevelLibrary/blob/master/image/329A55
 	public class ClassA extends MultiLevelModel	  
 
 ### 4.适配器继承MultiLevelAdapter重写onCreateView方法  
-	  `
-	  public class MultiLevelTestAdapter extends MultiLevelAdapter
-	  ` 
+	 
+	public class MultiLevelTestAdapter extends MultiLevelAdapter
+	 
 
 ### 5.设置适配器
   
@@ -55,7 +55,6 @@ src="https://github.com/JianxunMaster/MultiLevelLibrary/blob/master/image/329A55
 
 #### 2）示例数据如下：
    
-	`
 	for (int i = 0; i < 3; i++) {
             ClassA classA = new ClassA(i, " A" + i);
             classA.setChildren(new ArrayList());
@@ -78,7 +77,6 @@ src="https://github.com/JianxunMaster/MultiLevelLibrary/blob/master/image/329A55
                 }
             }
         }
-	`
 
 ## QQ群464635057 欢迎加群讨论 扫码加群
 
