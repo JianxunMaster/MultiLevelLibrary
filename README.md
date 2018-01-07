@@ -13,7 +13,7 @@
 ## (*╹▽╹*)：
 担心算错？不用怕，已经算好了并封装。本文详细介绍4方法及使用。
 ## 先上图  
-<img width="250" height="400" alt="截屏1" src="https://github.com/JianxunMaster/MultiLevelLibrary/blob/master/image/5B1D355AA5E1DAFFC1CDE98A9F9E0E59.jpg"/><img width="250" height="400" alt="截屏2"
+<img width="250" height="400" alt="截屏1" src="https://github.com/JianxunMaster/MultiLevelLibrary/blob/master/image/5B1D355AA5E1DAFFC1CDE98A9F9E0E59.jpg"/> <img width="250" height="400" alt="截屏2"
 src="https://github.com/JianxunMaster/MultiLevelLibrary/blob/master/image/329A5551F8D475A0BAF7F2036B85046B.jpg"/>
 
 ## 简单使用
