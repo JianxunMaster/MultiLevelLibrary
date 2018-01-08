@@ -29,9 +29,22 @@ src="https://github.com/JianxunMaster/MultiLevelLibrary/blob/master/image/329A55
 	下载压缩包解压到本地，导入开发工具
 	
 #### 2）快速导入
-
-   [![](https://jitpack.io/v/JianxunMaster/MultiLevelLibrary.svg)](https://jitpack.io/#JianxunMaster/MultiLevelLibrary)
-
+[![](https://jitpack.io/v/JianxunMaster/MultiLevelLibrary.svg)](https://jitpack.io/#JianxunMaster/MultiLevelLibrary)
+##### 1.2.1 在project的build.gradle文件中添加
+	
+	allprojects {
+		repositories {
+			...
+			maven { url 'https://jitpack.io' }
+		}
+	}
+	
+##### 1.2.2 在module的build.gradle中添加
+	
+	dependencies {
+	        compile 'com.github.JianxunMaster:MultiLevelLibrary:v1.0.0'
+	}
+	
 ### 2.在xml中使用ListView 
 
 	v1.0.0版还没有RecyclerView的适配  			  
