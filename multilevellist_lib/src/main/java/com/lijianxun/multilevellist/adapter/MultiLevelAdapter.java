@@ -14,7 +14,9 @@ import com.lijianxun.multilevellist.util.MultiLevelHelper;
 import java.util.List;
 
 /**
- * 多级列表适配器
+ * 安卓多级列表适配器
+ * android多级列表adapter
+ * 可伸缩可展开
  * Created by windows on 2017/12/28.
  */
 
