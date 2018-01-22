@@ -15,7 +15,7 @@ import java.util.List;
 
 /**
  * 安卓多级列表适配器
- * android多级列表adapter
+ * android multilevel adapter
  * 可伸缩可展开
  * Created by windows on 2017/12/28.
  */
@@ -29,7 +29,12 @@ public abstract class MultiLevelAdapter<T extends MultiLevelModel> extends BaseA
     protected boolean mExpandAll;//是否全部展开
     protected int mExpandLevel;
     protected OnMultiLevelListener mListener;
-
+/**
+ *@param context 上下文
+ *@param isExpandable 子列表能否伸展、伸缩
+ *@param isExpandAll 是否展开所有
+ *@param expandLevel 展开层级数
+ */
     public MultiLevelAdapter(Context context, boolean isExpandable, boolean isExpandAll
             , int expandLevel) {
         mContext = context;
