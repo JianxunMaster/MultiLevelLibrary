@@ -15,6 +15,7 @@ import java.util.List;
 
 /**
  * 安卓多级列表适配器
+ * 1一级列表、2二级列表、3三级列表、4四级列表、5五级列表、多级列表
  * android multilevel adapter
  * 可伸缩可展开
  * Created by windows on 2017/12/28.
