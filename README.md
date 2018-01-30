@@ -78,8 +78,17 @@ src="https://github.com/JianxunMaster/MultiLevelLibrary/blob/master/image/329A55
 	
 ### 6.数据结构嵌套  
 
-#### 1）建议实用fastjson解析数据格式，生成指定字段children集合，一句代码搞定
+#### 1）建议实用fastjson解析数据格式，@JSONField(name="json字段")生成指定字段children集合，一句代码搞定
 
+	eg:
+	Model extends MultiLevelModel{
+	    @JSONField(name="json字段")
+	    @Override
+	    public void setChildren(List<T> children) {
+	        super.setChildren(children);
+	    }
+	}
+	
 #### 2）示例数据如下：
    
 	for (int i = 0; i < 3; i++) {
