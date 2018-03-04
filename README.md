@@ -76,12 +76,16 @@ src="https://github.com/JianxunMaster/MultiLevelLibrary/blob/master/image/329A55
         listView.setAdapter(adapter);
         adapter.setList(list);
 	
-### 6.数据结构嵌套  
+### 6.数据结构嵌套 
 
-#### 1）继承MultiLevelModel,子集字段名称不同时，需手动设置children值
-
-	Model extends MultiLevelModel{
-	   
+#### 1）继承MultiLevelModel,添加泛型，字段赋值使用@JSONField(name = "json字段")<建议使用fastjson可以快速解析>
+	
+	public class Model extends MultiLevelModel<子集泛型>{
+		@JSONField(name = "childs")
+    		@Override
+    		public void setChildren(List<子集泛型> children) {
+        		super.setChildren(children);
+    		}
 	}
 	
 	
