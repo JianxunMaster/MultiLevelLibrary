@@ -114,8 +114,7 @@ src="https://github.com/JianxunMaster/MultiLevelLibrary/blob/master/image/329A55
             }
         }
 
-## QQ群464635057 欢迎加群讨论 扫码加群
-
+## QQ群464635057 欢迎加群讨论 扫码加群，群文件有jar包，jar包包含treenode
 <div align=center><img alt="群二维码" src="https://github.com/JianxunMaster/MultiLevelLibrary/blob/master/image/MultiLevelLibrary%E8%AE%A8%E8%AE%BA%E7%BE%A4%E7%BE%A4%E4%BA%8C%E7%BB%B4%E7%A0%81.png"/></div>
 
 ## 大哥大姐觉得好用的打点赏，一点心意作鼓励
