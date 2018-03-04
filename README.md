@@ -78,10 +78,10 @@ src="https://github.com/JianxunMaster/MultiLevelLibrary/blob/master/image/329A55
 	
 ### 6.数据结构嵌套 
 
-#### 1）继承MultiLevelModel,添加泛型，字段赋值使用@JSONField(name = "json字段")<建议使用fastjson可以快速解析>
+#### 1）继承MultiLevelModel,添加泛型，字段赋值使用@JSONField(name = "json字段")<建议使用fastjson可以快速解析，把json字段解析成children字段>
 	
 	public class Model extends MultiLevelModel<子集泛型>{
-		@JSONField(name = "childs")
+		@JSONField(name = "json字段名")
     		@Override
     		public void setChildren(List<子集泛型> children) {
         		super.setChildren(children);
