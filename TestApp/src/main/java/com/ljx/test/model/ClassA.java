@@ -6,7 +6,7 @@ import com.lijianxun.multilevellist.model.MultiLevelModel;
  * Created by windows on 2017/12/28.
  */
 
-public class ClassA extends MultiLevelModel {
+public class ClassA extends MultiLevelModel<ClassB> {
     private int id;
     private String name;
 

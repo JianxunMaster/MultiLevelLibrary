@@ -28,30 +28,30 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        listView = findViewById(R.id.listView);
+        listView = (ListView) findViewById(R.id.listView);
         int count = 0;
         for (int i = 0; i < 3; i++) {
-            ClassA classA = new ClassA(i, " A" + i);
-            classA.setChildren(new ArrayList());
-            list.add(classA);
+            ClassA a = new ClassA(i, " A" + i);
+            a.setChildren(new ArrayList());
+            list.add(a);
             count += 1;
-            Log.e("TAG 1", classA.getName());
+            Log.e("TAG 1", a.getName());
             for (int j = 0; j < 3; j++) {
-                ClassB classB = new ClassB(j, " A" + i + " B" + j);
-                classA.getChildren().add(classB);
+                ClassB b = new ClassB(j, " A" + i + " B" + j);
+                a.getChildren().add(b);
                 count += 1;
-                Log.e("TAG 2", classB.getLabel());
+                Log.e("TAG 2", b.getLabel());
                 for (int k = 0; k < 3; k++) {
-                    ClassC classC = new ClassC(" A" + i + " B" + j + " C" + k);
-                    classB.getChildren().add(classC);
+                    ClassC c = new ClassC(" A" + i + " B" + j + " C" + k);
+                    b.getChildren().add(c);
                     count += 1;
-                    Log.e("TAG 3", classC.getName());
+                    Log.e("TAG 3", c.getName());
                     for (int l = 0; l < 3; l++) {
-                        ClassD classD = new ClassD(" A" + i + " B" + j + " C" + k + " D" + l
+                        ClassD d = new ClassD(" A" + i + " B" + j + " C" + k + " D" + l
                                 , "D");
-                        classC.getChildren().add(classD);
+                        c.getChildren().add(d);
                         count += 1;
-                        Log.e("TAG 4", classD.getName());
+                        Log.e("TAG 4", d.getName());
                     }
                 }
             }

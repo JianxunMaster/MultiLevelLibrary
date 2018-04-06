@@ -64,7 +64,7 @@ public class MultiLevelTestAdapter extends MultiLevelAdapter {
         TextView tv;
 
         public Holder(View view) {
-            tv = view.findViewById(R.id.tv);
+            tv = (TextView) view.findViewById(R.id.tv);
         }
     }
 }
