@@ -41,10 +41,10 @@ src="https://github.com/JianxunMaster/MultiLevelLibrary/blob/master/image/329A55
 		}
 	}
 	
-##### 1.2.2 在module的build.gradle中添加
+##### 1.2.2 在module的build.gradle中添加version以最新版本为准，例如当前version为1.0.2
 	
 	dependencies {
-	        compile 'com.github.JianxunMaster:MultiLevelLibrary:v1.0.0'
+	        compile 'com.github.JianxunMaster:MultiLevelLibrary:version'
 	}
 	
 ### 2.在xml中使用ListView 
