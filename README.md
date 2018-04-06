@@ -1,4 +1,6 @@
 # MultiLevelLibrary  
+## ※github新手上路，如果不能下载，请加群讨论更新。
+## ※新添加multilevellist-v1.0.jar可直接使用（包含treenode和multilevel）
 ## 思路
 普通列表：ListView适配器包含四个重写方法。其中，getCount指列表长度或，getView指item的布局和显示，一般列表写好这两个就ok。  
 多级列表：数据对象一般是大数据集合，大数据包含小数据集合，小数据包含小小数据集合···  一般情况的处理方式有这几种：  
@@ -113,6 +115,7 @@ src="https://github.com/JianxunMaster/MultiLevelLibrary/blob/master/image/329A55
                 }
             }
         }
+## 已添加jar包multilevellist-v1.0.jar，可出来treenode和multilevel两种数据格式
 
 ## QQ群464635057 欢迎加群讨论 扫码加群，群文件有jar包，jar包包含treenode
 <div align=center><img alt="群二维码" src="https://github.com/JianxunMaster/MultiLevelLibrary/blob/master/image/MultiLevelLibrary%E8%AE%A8%E8%AE%BA%E7%BE%A4%E7%BE%A4%E4%BA%8C%E7%BB%B4%E7%A0%81.png"/></div>
