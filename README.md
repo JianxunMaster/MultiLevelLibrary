@@ -1,6 +1,5 @@
 # MultiLevelLibrary  
-RecyclerView适配器请移步我的另一个仓库
-[![TreeNodeLibrary]](https://github.com/JianxunMaster/TreeNodeLibrary)
+RecyclerView适配器请移步我的另一个仓库[TreeNodeLibrary](https://github.com/JianxunMaster/TreeNodeLibrary)
 ## ※github新手上路，如果不能下载，请加群讨论更新。
 ## ※新添加multilevellist-v1.0.jar可直接使用（包含treenode和multilevel）
 ## 思路
